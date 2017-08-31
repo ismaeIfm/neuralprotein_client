@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (1.6.4)
+    rack-ssl-enforcer (0.2.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  rack-ssl-enforcer
+
+BUNDLED WITH
+   1.11.2

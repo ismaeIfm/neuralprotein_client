@@ -1,0 +1,21 @@
+
+<div id="login-wrapper">
+	<div class="pen-title">
+	  <h1>Seicento</h1></span>
+	</div>
+	<!-- Form Module-->
+	<div class="module form-module">
+	  <div class="toggle"><!--<i class="fa fa-times fa-pencil"></i>
+	    <div class="tooltip">Click Me</div>-->
+	  </div>
+	  <div class="form">
+	    <h2>Bienvenido</h2>
+	    <form ng-submit="login()">
+	      <input type="text" placeholder="Username" ng-model="user.username"/>
+	      <input type="password" placeholder="Password" ng-model="user.password"/>
+	      <button type="submit">Login</button>
+	    </form>
+	  </div>
+	  <!--<div class="cta"><a href="http://andytran.me">Forgot your password?</a></div>-->
+	</div>
+</div>

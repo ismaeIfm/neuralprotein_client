@@ -1,0 +1,12 @@
+<div ng-class="{row: blockSize >= 12}">
+    <div class="col-md-{{blockSize}}" id="{{blockId}}">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa {{blockIcon}} fa-fw" ng-show="blockIcon"></i>{{blockTitle}}</h3>
+            </div>
+            <div class="panel-body">
+                <ng-transclude></ng-transclude>
+            </div>
+        </div>
+    </div>
+</div>
