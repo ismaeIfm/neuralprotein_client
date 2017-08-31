@@ -13,8 +13,7 @@ angular.module 'comss', [
   'toaster'
   'angular-loading-bar'
   'angular-web-notification'
-
-
+  'angularFileUpload'
 
   # House apps
   'comss.dashboard'

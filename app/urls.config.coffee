@@ -74,6 +74,7 @@ angular.module('comss').config ($stateProvider, $locationProvider, $localStorage
   $stateProvider.state 'index.nf',
     templateUrl: "templates/dashboard/nf"
     url: 'neighbor-finder'
+    controller: 'NFController'
 
   $stateProvider.state 'index.about',
     templateUrl: "templates/dashboard/about"
